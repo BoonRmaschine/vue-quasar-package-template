@@ -45,6 +45,7 @@
   },
   "files": [
     "dist/*",
+    "src/assets/*",
     "src/components/*.vue",
     "src/index.*",
     "index.*"
