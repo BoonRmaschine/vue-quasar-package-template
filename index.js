@@ -1,3 +1,3 @@
-import { HelloWorld } from './dist/vue-module.common';
+import HelloWorld from './src/components/HelloWorld.vue';
 
 export default HelloWorld;
