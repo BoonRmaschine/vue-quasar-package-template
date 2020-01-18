@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "target": "esnext",
     "module": "esnext",
     "strict": true,
@@ -27,10 +28,19 @@
     ]
   },
   "include": [
+    "dist/**/*.js",
+    "dist/**/*.ts",
+    "dist/**/*.jsx",
+    "dist/**/*.tsx",
+    "dist/**/*.vue",
+    "src/**/*.js",
     "src/**/*.ts",
+    "src/**/*.jsx",
     "src/**/*.tsx",
     "src/**/*.vue",
+    "tests/**/*.js",
     "tests/**/*.ts",
+    "tests/**/*.jsx",
     "tests/**/*.tsx"
   ],
   "exclude": [
