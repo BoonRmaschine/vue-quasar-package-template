@@ -8,7 +8,7 @@
     "build:lib": "vue-cli-service build --target lib --name vue-module 'src/index.js'",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "prepublish": "npm run build:lib",
+    "prepublish": "npm version patch && npm run build:lib",
     "publish:dryrun": "npm publish --dry-run",
     "publish:lib": "npm publish"
   },
