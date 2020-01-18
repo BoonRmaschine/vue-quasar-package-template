@@ -1,7 +1,6 @@
 {
-  "name": "vue-quasar-package-template",
+  "name": "@boonrmaschine/vue-quasar-package-template",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
@@ -49,5 +48,9 @@
     "src/components/*.vue",
     "src/index.*",
     "index.*"
-  ]
+  ],
+  "repository": "github:BoonRmaschine/vue-quasar-package-template",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
